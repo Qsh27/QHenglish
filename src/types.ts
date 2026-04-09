@@ -5,12 +5,12 @@ export enum Difficulty {
 }
 
 export enum GrammarPoint {
-  NonFiniteVerb = "Non-finite Verbs",
-  AttributiveClause = "Attributive Clause",
-  AdverbialClause = "Adverbial Clause",
-  Conjunction = "Conjunctions",
-  NounClause = "Noun Clause",
-  AbsoluteConstruction = "Absolute Construction",
+  NonFiniteVerb = "非谓语动词",
+  AttributiveClause = "定语从句",
+  AdverbialClause = "状语从句",
+  Conjunction = "连词",
+  NounClause = "名词性从句",
+  AbsoluteConstruction = "独立主格",
 }
 
 export interface Option {
